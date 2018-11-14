@@ -14,6 +14,6 @@ services:
     volumes:
       - .:/gitbook
     environment:
-      BOOK_URL: https://github.com/iansmith123/example
+      BOOK_URL: https://github.com/zjfjiayou/ld-help.git
     command: ['/gitbook/start.sh']
 

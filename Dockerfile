@@ -1,10 +1,8 @@
-FROM node:9.3.0
-
-MAINTAINER Les1ie me@les1ie.com
+FROM node:10.13.0
 
 WORKDIR /gitbook
 
-RUN npm --registry https://registry.npm.taobao.org install gitbook-cli -g
+RUN npm install gitbook-cli -g
 
 RUN gitbook init
 

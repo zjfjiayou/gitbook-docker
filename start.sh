@@ -1,10 +1,8 @@
 #! /bin/bash
 rm -rf book
 git clone $BOOK_URL book
+nohup node server.js  &
 cd book
 
 gitbook install
-nohup gitbook serve &
-cd ..
-node server.js
-
+nohup gitbook serve
