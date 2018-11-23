@@ -3,7 +3,6 @@
     "description": "好队友帮助文档",
     "language": "zh-hans",
     "plugins": [
-        "disqus",
         "github",
         "prism",
         "-highlight",
@@ -32,9 +31,6 @@
         "simple-page-toc": {
             "maxDepth": 3,
             "skipFirstH1": true
-        },
-        "disqus": {
-            "shortName": "webpack-handbook"
         },
         "links": {
             "gitbook": false,
