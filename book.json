@@ -1,0 +1,52 @@
+{
+    "title": "好队友帮助文档",
+    "description": "好队友帮助文档",
+    "language": "zh-hans",
+    "plugins": [
+        "disqus",
+        "github",
+        "prism",
+        "-highlight",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "splitter",
+        "tbfed-pagefooter",
+        "fontsettings",
+        "simple-page-toc",
+        "links",
+        "html5-video",
+        "local-video"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright": "",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "fontsettings": {
+            "theme": "white",
+            "family": "serif",
+            "size": 12
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "disqus": {
+            "shortName": "webpack-handbook"
+        },
+        "links": {
+            "gitbook": false,
+            "sharing": {
+                "google": false,
+                "facebook": false,
+                "twitter": false,
+                "all": false
+            }
+        },
+        "github": {
+            "url": "https://gitee.com/0616/ld-help.git"
+        }
+    }
+}
