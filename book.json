@@ -15,7 +15,8 @@
         "simple-page-toc",
         "links",
         "html5-video",
-        "local-video"
+        "local-video",
+        "toggle-chapters"
     ],
     "pluginsConfig": {
         "tbfed-pagefooter": {
