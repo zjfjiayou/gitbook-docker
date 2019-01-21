@@ -16,7 +16,7 @@
         "links",
         "html5-video",
         "local-video",
-        "toggle-chapters"
+        "expandable-chapters-small"
     ],
     "pluginsConfig": {
         "tbfed-pagefooter": {
