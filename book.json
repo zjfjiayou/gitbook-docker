@@ -3,6 +3,7 @@
     "description": "好队友帮助文档",
     "language": "zh-hans",
     "plugins": [
+        "-sharing",
         "github",
         "prism",
         "-highlight",
