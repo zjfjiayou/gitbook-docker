@@ -1,5 +1,5 @@
 ## gitbook-docker
-##  序 
+##  序
 
 - 因为某些不可描述的原因，访问gitbook非常慢，所以这里使用docker 搭建私有gitbook
 - 网上现有的gitbook的docker镜像比较陈旧，不好用
@@ -12,12 +12,12 @@ $ git clone https://github.com/IanSmith123/gitbook-docker --depth=1
 $ cd gitbook-docker
 $ docker-compose up -d
 ```
-容器启动完成之后访问4000端口即可看到`gitbook`页面
+容器启动完成之后访问4002端口即可看到`gitbook`页面
 
 注：可自行修改端口，建议使用nginx反代到80端口
 
 ## 配置webhook
-在git仓库中设置`webhook` , 当`commit`事件发生时，触发`url`为`gitbook`服务器的`4001`端口
+在git仓库中设置`webhook` , 当`commit`事件发生时，触发`url`为`gitbook`服务器的`4003`端口
 
 触发之后，gitbook将会自动`git pull`然后更新内容
 

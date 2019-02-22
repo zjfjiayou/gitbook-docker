@@ -6,4 +6,4 @@ RUN npm install gitbook-cli -g
 
 RUN gitbook init
 
-EXPOSE 4000
+EXPOSE 4002

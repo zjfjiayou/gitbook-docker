@@ -6,4 +6,4 @@ nohup node server.js  &
 cd book
 
 gitbook install
-nohup gitbook serve
+nohup gitbook serve --lrport 35730 --port 4002
